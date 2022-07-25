@@ -20,7 +20,8 @@ namespace Controle_de_abastecimento_de_aviões
         {
             //Entradas:
             Console.Clear();
-            Console.WriteLine("Informe a média dos litros por KM: ");
+            Console.Write("                      ******Bem vindo ao AirCraft Controller******");
+            Console.WriteLine("\n\nInforme a média dos litros por KM: ");
             MediaLKM = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Informe a capacidade máxima do tanque: ");
