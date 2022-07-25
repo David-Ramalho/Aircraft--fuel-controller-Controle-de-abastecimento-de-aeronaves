@@ -1,0 +1,14 @@
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\bin\Debug\netcoreapp3.1\AirCraft Controller.exe
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\bin\Debug\netcoreapp3.1\AirCraft Controller.deps.json
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\bin\Debug\netcoreapp3.1\AirCraft Controller.runtimeconfig.json
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\bin\Debug\netcoreapp3.1\AirCraft Controller.runtimeconfig.dev.json
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\bin\Debug\netcoreapp3.1\AirCraft Controller.dll
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\bin\Debug\netcoreapp3.1\AirCraft Controller.pdb
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\obj\Debug\netcoreapp3.1\AirCraft Controller.csproj.AssemblyReference.cache
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\obj\Debug\netcoreapp3.1\AirCraft Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\obj\Debug\netcoreapp3.1\AirCraft Controller.AssemblyInfoInputs.cache
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\obj\Debug\netcoreapp3.1\AirCraft Controller.AssemblyInfo.cs
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\obj\Debug\netcoreapp3.1\AirCraft Controller.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\obj\Debug\netcoreapp3.1\AirCraft Controller.dll
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\obj\Debug\netcoreapp3.1\AirCraft Controller.pdb
+C:\Users\David\Documents\GIT\Algoritmo controle de abastecimento de aeronaves\AirCraft\AirCraft Controller\obj\Debug\netcoreapp3.1\AirCraft Controller.genruntimeconfig.cache
