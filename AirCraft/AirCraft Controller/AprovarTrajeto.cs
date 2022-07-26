@@ -11,7 +11,8 @@ namespace Controle_de_abastecimento_de_aviões
         {
             if (AprovarRota.TrechoTotal<=AprovarRota.TanqueTotal )
             {
-                 AprovarRota.ShowFormt();
+                AprovarRota.ShowFormt();
+                Console.WriteLine("\n\n\nVisualição por 5 min:");
                 Thread.Sleep(5000);
 
 

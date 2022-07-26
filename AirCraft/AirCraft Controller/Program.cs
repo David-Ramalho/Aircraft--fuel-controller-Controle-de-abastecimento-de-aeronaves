@@ -9,17 +9,16 @@ namespace Controle_de_abastecimento_de_aviões
         static void Main(string[] args)
         {
             //menu do programa
-            int i = -1;
+            float i = -1;
             while (i != 0)
             {
                 Console.Clear();
 
                 //Entradas:
                 Console.Write("                      ******Bem vindo ao AirCraft Controller******");
-                Console.WriteLine("\n\nEscolha Algumas das opções abaixo:");
-                
+                Console.WriteLine("\n\nEscolha Algumas das opções abaixo:");                
                 Console.WriteLine("\n1-Verificar Voo\n0-Sair");
-                i = int.Parse(Console.ReadLine());
+                i = float.Parse(Console.ReadLine());
 
 
                 if (i == 1)
@@ -44,7 +43,7 @@ namespace Controle_de_abastecimento_de_aviões
                 {
                     Console.Clear();
                     Console.WriteLine("***Comando inválido***\n\nTente Novamente!");
-                    Thread.Sleep(5000);
+                    Thread.Sleep(3000);
                     Console.Clear();
 
                 }
