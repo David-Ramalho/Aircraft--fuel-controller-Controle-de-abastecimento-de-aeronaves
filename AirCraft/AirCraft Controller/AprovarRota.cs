@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,6 +16,7 @@ namespace Controle_de_abastecimento_de_aviões
         public static float TrechoALT;
         public static float TrechoTotal;
         public static float Margem;
+
 
         public static void Questions()
         {
@@ -56,7 +58,19 @@ namespace Controle_de_abastecimento_de_aviões
             Margem = (TrechoALT + TrechoP) * 30 / 100;
             TrechoTotal = (TrechoALT + TrechoP) + AprovarRota.Margem;
             return TrechoTotal;
-        }       
+        }
+
+        //mostrar os resultados em formato pré-definido.
+        public static float NeedGas = TrechoTotal - Gaso;
+        public static void ShowFormt()
+        {
+
+            Console.WriteLine("Trecho Principal: " + TrechoP.ToString("F2"), CultureInfo.InvariantCulture);
+            Console.WriteLine("Trecho Alternativo: " + TrechoALT.ToString("F2"), CultureInfo.InvariantCulture);
+            Console.WriteLine("Total dos trechos com margem: " + TrechoTotal.ToString("F2"), CultureInfo.InvariantCulture);            
+            Console.WriteLine("Combustivel necessário para ambos os trechos com margem: " + NeedGas.ToString("F2"), CultureInfo.InvariantCulture);
+
+        }
 
 
 

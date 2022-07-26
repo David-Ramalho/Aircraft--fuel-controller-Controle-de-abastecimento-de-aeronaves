@@ -8,16 +8,20 @@ namespace Controle_de_abastecimento_de_aviões
     {
         static void Main(string[] args)
         {
-            int i=1;
+            //menu do programa
+            int i = -1;
             while (i != 0)
             {
-                //Entradas:
-            Console.Write("                      ******Bem vindo ao AirCraft Controller******");
-            Console.WriteLine("\n\nEscolha Algumas das opções abaixo:");
-            Console.WriteLine("\n1-Verificar Voo\n0-Sair");
-             i= int.Parse(Console.ReadLine());
+                Console.Clear();
 
-           
+                //Entradas:
+                Console.Write("                      ******Bem vindo ao AirCraft Controller******");
+                Console.WriteLine("\n\nEscolha Algumas das opções abaixo:");
+                
+                Console.WriteLine("\n1-Verificar Voo\n0-Sair");
+                i = int.Parse(Console.ReadLine());
+
+
                 if (i == 1)
                 {
                     AprovarRota.Questions();
@@ -29,23 +33,25 @@ namespace Controle_de_abastecimento_de_aviões
 
                     //aprovação do voo
                     AprovarTrajeto.Aprova();
+                    Thread.Sleep(5000);
                 }
-                if (i == 0)
+                else if (i == 0)
                 {
                     Console.Clear();
                     Console.WriteLine("\nPrograma encerrado");
                 }
-                else {
+                else
+                {
                     Console.Clear();
                     Console.WriteLine("***Comando inválido***\n\nTente Novamente!");
                     Thread.Sleep(5000);
                     Console.Clear();
 
                 }
-            }                   
+            }
 
 
-           
+
 
 
 
